@@ -23,10 +23,11 @@ Designed for real production workflows.
 | Check fonts             | Configure validation rules            |
 | Check images            | Run the preflight analysis            |
 | Check text              | Review the production report          |
-| Check document settings | Correct detected issues               |
-| Record problems         | **Production verification complete.** |
+| Check document settings |                                       |
+| Record problems         |                                       |
 | Open the next document  |                                       |
-| Repeat again...         |                                       |
+| Repeat                  | Correct detected issues               |
+| Repeat again...         | **Production verification complete.** |
 
 ---
 
