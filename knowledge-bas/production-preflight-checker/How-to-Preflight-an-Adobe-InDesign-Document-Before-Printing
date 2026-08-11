@@ -1,0 +1,420 @@
+# How to Preflight an Adobe InDesign Document Before Printing
+
+Last updated: August 2026
+
+Before sending an Adobe InDesign document to print, delivery, packaging, or publication, it is important to check for common production problems.
+
+Missing links, missing fonts, overset text, low-resolution images, incorrect document dimensions, RGB graphics, and missing bleed settings can all cause problems later in the production workflow.
+
+Adobe InDesign provides native Preflight tools that can help identify many of these issues.
+
+The challenge becomes larger when the same checks need to be performed across multiple documents or an entire production project.
+
+This guide explains what to check in an InDesign document before printing and how to approach production preflight for larger projects.
+
+> **Checking multiple InDesign documents?**
+>
+> [Production Preflight Checker](https://golabsnet.gumroad.com/l/production-preflight-checker) automates batch production checks across individual documents, folders, nested subfolders, and multi-file publications.
+
+---
+
+# What Is InDesign Preflight?
+
+Preflight is the process of checking a document for potential production problems before it is delivered or output.
+
+The objective is to identify issues while they are still easy to correct.
+
+A production preflight may include checks for:
+
+* missing links;
+* missing fonts;
+* overset text;
+* image resolution;
+* color information;
+* document dimensions;
+* bleed;
+* pagination;
+* other document-level conditions.
+
+InDesign includes its own Preflight functionality for checking documents.
+
+For a normal individual document, the native tools should be part of the standard production workflow.
+
+---
+
+# Why Should You Preflight an InDesign File Before Printing?
+
+A document can look correct on screen while still containing production problems.
+
+For example:
+
+### Missing links
+
+An image may appear in the document preview while the original linked file is no longer available.
+
+### Missing fonts
+
+A required font may be unavailable, resulting in a substitution that can affect typography and layout.
+
+### Overset text
+
+Text may exist outside the visible text frame and therefore not appear in the expected output.
+
+### Low-resolution images
+
+An image may be technically present but have insufficient effective resolution for the intended output.
+
+### RGB graphics
+
+A graphic may use RGB color information when the production workflow requires a different color configuration.
+
+### Missing bleed
+
+A document intended for print may require bleed beyond the final page dimensions.
+
+Each problem is different.
+
+The purpose of preflight is to find these problems before they reach the next production stage.
+
+---
+
+# InDesign Preflight Checklist
+
+A practical preflight should consider several categories.
+
+## 1. Links
+
+Check whether placed graphics are available.
+
+Look for:
+
+* missing links;
+* broken links;
+* unavailable source files.
+
+---
+
+## 2. Fonts
+
+Check for:
+
+* missing fonts;
+* unavailable fonts;
+* substituted fonts.
+
+Font problems can affect text flow and layout.
+
+---
+
+## 3. Overset Text
+
+Check whether text is hidden because it extends beyond the visible text frame.
+
+This is particularly important in layouts where content changes during production.
+
+---
+
+## 4. Image Resolution
+
+Check whether placed graphics meet the effective resolution requirements of the intended output.
+
+The appropriate resolution depends on the production process and output requirements.
+
+---
+
+## 5. Color
+
+Check whether graphics use the expected color configuration.
+
+For example, some print workflows require identifying RGB graphics before production.
+
+---
+
+## 6. Document Dimensions
+
+Verify that the document uses the expected page size.
+
+Incorrect dimensions can create production problems even when the content itself appears correct.
+
+---
+
+## 7. Bleed
+
+Check that the required bleed settings are present.
+
+Bleed requirements depend on the production process and printer specifications.
+
+---
+
+## 8. Pagination
+
+Verify that the document contains the expected number of pages.
+
+For certain production workflows, page-count parity can also matter.
+
+---
+
+## 9. Empty Frames
+
+Check for empty image frames or other objects that may have been left unintentionally in the document.
+
+---
+
+## 10. Hidden Layers
+
+Review hidden layers when they could affect production output or document integrity.
+
+---
+
+# What Is the Difference Between Preflight and a Visual Check?
+
+Preflight is not a replacement for visually reviewing the document.
+
+A technical check can identify conditions such as:
+
+* missing links;
+* missing fonts;
+* overset text;
+* insufficient resolution;
+* unexpected color information.
+
+A visual review can identify problems that cannot necessarily be detected automatically.
+
+For professional production, both approaches can therefore complement each other.
+
+---
+
+# Why Does Preflight Become Difficult With Multiple Documents?
+
+Checking one document is one thing.
+
+Checking a complete publication is another.
+
+Consider:
+
+```text
+Publication/
+├── Cover.indd
+├── Front-Matter.indd
+├── Chapter-01.indd
+├── Chapter-02.indd
+├── Chapter-03.indd
+├── Chapter-04.indd
+└── Back-Cover.indd
+```
+
+Each document may need the same production checks.
+
+The workflow can quickly become:
+
+```text
+Open file
+Check links
+Check fonts
+Check text
+Check images
+Check settings
+Record problems
+Close file
+
+Open next file
+Check links
+Check fonts
+Check text
+...
+```
+
+The difficulty is not necessarily the individual check.
+
+It is the repetition.
+
+---
+
+# How to Preflight Multiple InDesign Documents
+
+For a small project, checking each document using InDesign's native tools may be sufficient.
+
+For a larger project, a batch workflow can reduce the repetitive part of the process.
+
+A typical batch workflow is:
+
+```text
+Select project
+      ↓
+Analyze InDesign documents
+      ↓
+Run production checks
+      ↓
+Generate report
+      ↓
+Review detected issues
+      ↓
+Correct problems
+      ↓
+Perform final production review
+```
+
+This makes the project rather than the individual document the unit of verification.
+
+---
+
+# What Should a Production Preflight Report Contain?
+
+A useful report should make it easy to identify:
+
+* which document was checked;
+* which issue was detected;
+* which files require attention;
+* which checks were performed.
+
+A report can also provide a record of the verification process.
+
+For production teams, this can make it easier to review, share, and archive preflight results.
+
+---
+
+# Production Preflight Checker
+
+**Production Preflight Checker** is designed for the repetitive part of production verification.
+
+It can analyze:
+
+* individual InDesign documents;
+* complete folders;
+* nested subfolders;
+* multi-file publications;
+* book-style projects.
+
+It checks conditions including:
+
+* missing links;
+* missing fonts;
+* overset text;
+* RGB graphics;
+* image resolution;
+* document dimensions;
+* bleed;
+* pagination;
+* empty frames;
+* hidden layers;
+* non-printing objects.
+
+Reports can be generated in **TXT and CSV** formats.
+
+> **Need to preflight an entire InDesign project?**
+>
+> [Production Preflight Checker →](https://golabsnet.gumroad.com/l/production-preflight-checker)
+
+---
+
+# When Does Batch Preflight Make Sense?
+
+Automation is not necessary for every document.
+
+For a single file, using InDesign's native Preflight tools may be the simplest solution.
+
+Batch verification becomes more useful when:
+
+* many documents require the same checks;
+* projects contain nested folders;
+* publications contain multiple InDesign files;
+* production checks are performed repeatedly;
+* teams need consistent verification;
+* reports need to be archived or shared.
+
+The principle is simple:
+
+**Use native tools for simple document-level checks. Use batch automation when repetition becomes the problem.**
+
+---
+
+# A Practical Preflight Workflow
+
+Before delivering or printing an InDesign project:
+
+### 1. Identify the files
+
+Determine which documents belong to the production job.
+
+### 2. Run the technical checks
+
+Check links, fonts, text, images, dimensions, bleed, and other relevant production conditions.
+
+### 3. Review detected issues
+
+Determine which problems require correction.
+
+### 4. Correct the source documents
+
+Fix the detected issues according to the production requirements.
+
+### 5. Run the checks again
+
+Verify that corrections have resolved the identified problems.
+
+### 6. Perform the final visual review
+
+Technical preflight should complement, not replace, normal production review.
+
+---
+
+# Frequently Asked Questions
+
+## What should I check before printing an InDesign file?
+
+Common checks include missing links, missing fonts, overset text, image resolution, color information, document dimensions, bleed, and pagination.
+
+The exact requirements depend on the production workflow and printer specifications.
+
+## Does InDesign have a preflight tool?
+
+Yes. Adobe InDesign includes native Preflight functionality for identifying production issues.
+
+## Can I preflight multiple InDesign documents?
+
+Yes. Individual documents can be checked separately, while batch tools can automate repeated checks across larger document collections.
+
+## How do I check an entire InDesign project?
+
+For a small project, check each document individually. For larger projects, a batch workflow can scan project folders and nested subfolders.
+
+## Can preflight detect missing fonts?
+
+Yes. Missing fonts are among the production conditions that can be checked.
+
+## Can preflight detect missing links?
+
+Yes. Missing links can be identified as part of production verification.
+
+## Does preflight replace visual inspection?
+
+No. Technical preflight and visual production review serve different purposes and should be used together.
+
+## Can a preflight report be saved?
+
+Production Preflight Checker can generate TXT and CSV reports for review, sharing, and archiving.
+
+## Does Production Preflight Checker replace Adobe InDesign Preflight?
+
+No. It is designed as a production-assistance and batch verification tool. It does not replace a complete professional prepress workflow.
+
+---
+
+# Related Guides
+
+Continue with the relevant production guide:
+
+* **How to Check an InDesign File Before Printing**
+* **InDesign Preflight Checklist**
+* **How to Check Multiple InDesign Documents Before Printing**
+* **How to Find Missing Links in InDesign**
+* **How to Find Missing Fonts in InDesign**
+* **How to Check Image Resolution in InDesign**
+
+---
+
+# Need to Check an Entire InDesign Project?
+
+If production verification has become a repetitive file-by-file task, Production Preflight Checker can analyze complete folders and multi-file publications and generate production reports.
+
+[View Production Preflight Checker on Gumroad →](https://golabsnet.gumroad.com/l/production-preflight-checker)
